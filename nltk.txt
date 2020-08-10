@@ -1,5 +1,4 @@
-corpus
+import nltk  
+nltk.download('stopwords')
 stem
-wordnet
-pros_cons
-reuters
+corpus
