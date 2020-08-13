@@ -1,4 +1,2 @@
-python -W ignore -m nltk.downloader stopwords
-wordnet
-pros_cons
-reuters
+corpus
+Stemmers
