@@ -2,7 +2,6 @@ from flask import Flask,render_template,request
 import pickle
 
 model = pickle.load(open('sgd_gs.pkl','rb'))
-tf = pickle.load(open('tf_sentimental.pkl','rb'))
 
 from preprocess import preprocessing
 
